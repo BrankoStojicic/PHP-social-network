@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+Reseting all the default css by the browser!!!
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-image: url('../images/cover.jpeg');
+    background-repeat: no-repeat; 
+    background-color: #101E26;
+}
+/*The reseting ends here*/
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#head_wrap{
+    width: 100%;
+    height: 35px;
+    margin: 0 auto;
+    border-bottom: 3px solid white;
+    padding: 12px;
+    background-color: dodgerblue;
+    overflow: hidden;
+}
+#header{
+    margin: 0 auto;
+    width: 95%;
+    height: 35px;
+    overflow: hidden;
+}
+#menu {
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#menu li{
+    display: inline;
+    list-style: none;
+}
+#menu a {
+    margin: 5px;
+    padding: 5ox;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#menu li a img{
+    height: 30px;
+    width: 30px;
+}
+#menu strong{
+    color: white;
+}
+#menu a:hover{
+    color: #58FF50;
+    font-weight: bolder;
+}
+#menu strong{
+    font-size: 20px;
+    color: #58FF50;
+}
+#form1{
+    float: right;
+    line-height: 35px;
+    padding-top: 3px;
+}
+#header img{
+    float: left;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #27aae2;
+}
+#user_timeline{
+    background: #E6F1FB;
+    width: 260px;
+    float: left;
+    height: 600px;
+    margin: 6px;
+    clear: both;
+}
+#user_details{
+    padding-left: 9%;
+    padding-top: 8px;
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-top: 5px;
+}
+#user_details img{
+    border-radius: 5px;
+    border: 4px solid white;
+    text-align: center;
+}
+#user_details p{
+    margin-bottom: 10px;
+    padding: 5px
+}
+#user_details a{
+    color: #1E90FF;
+    font-size: 20px;
+    text-decoration: none;
+}
+#user_details a:hover{
+    color: #58FF50;
+}
+#user_mention{
+    background: #E6F1FB;
+    width: 84%;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+#content_timeline{
+    float: right;
+    width: 700px;
+    padding: 10px;
+}
+#frame{
+    width: 550px;
+    background-color: #E6F1FB;
+    text-align: center;
+    padding: 8px;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+#frame input{
+    position: relative;
+    text-align: center;
+}
+#f input{
+    background-color: white;
+    padding: 7px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+#f textarea{
+    padding: 8px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+#f select{
+    padding: 8px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+#f textarea:hover {
+    background-color: aliceblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#f select:hover {
+    background-color: aliceblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#f input:hover {
+    background-color: aliceblue;   
+}
+#MRD {
+    padding: 10px;
+    margin: 5px;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+#MRD h3{
+    color: dodgerblue;
+}
+#h2{
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+#h2 h2{
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    border: 4px solid white;
+    border-radius: 5px;
+    color: dodgerblue;
+}
+#pagination{
+    margin-top: 20px;
+}
+#pagination a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px;
+}
+#pagination a:hover{
+    color: #58FF50;
+}
+#posts {
+    width: 530px;
+    background: white;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 20px;
+    text-align: justify;
+}
+#posts img{
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+#posts a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #1E90FF;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+#posts a:hover {
+    color: #58FF50;
+}
+#posts button {
+    background-color: white;
+    padding: 2px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+#posts button:hover {
+    background-color: aliceblue;
+}
+#reply textarea {
+    padding: 8px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    width: 76%;
+    font-family: 'Montserrat', sans-serif;
+}
+#reply textarea:hover {
+    background-color: aliceblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#inreply{
+    float: right;
+    padding-right: 150px;
+}
+#inreply input{
+    background-color: white;
+    padding: 2px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+#inreply input:hover {
+    background-color: aliceblue;
+}
+#comments{
+    padding: 8px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#comments span{
+    color: dodgerblue;
+}
+#userEdit{
+    position: relative;
+    left: 65px;
+    width: 550px;
+    background-color: #E6F1FB;
+    text-align: center;
+    padding: 8px;
+    border: 4px solid white;
+    border-radius: 5px;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #dbecff;
+    overflow: hidden;
+    clear: both;
+    border-top: 2px solid #cfe2f7;
+    position: relative;
+    clear: both;
+}
+#rightings{
+    height: 100%;
+}
+#rightings img{
+    height: 50px;
+}
+#rightings h2{
+    text-align: center;
+}

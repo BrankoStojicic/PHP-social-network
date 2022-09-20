@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+Reseting all the default css by the browser!!!
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-image: url('../images/cover.jpeg');
+}
+/*The reseting ends here*/
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#head_wrap{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 2px solid #cfe2f7;
+    padding: 0px;
+    background-color: #dbecff;
+}
+#header{
+    margin: 0 auto;
+    padding: 10px;
+    width: 95%;
+    height: 100px;
+    overflow: hidden;
+}
+#header img{
+    float: left;
+}
+#loginForm{
+    float: right;
+    position: relative;
+    right: 50px;
+}
+#loginForm #email{
+    width: 97%;
+}
+#loginForm input{
+    border-radius: 5px;
+    height: 20px;
+}
+loginForm button:link{
+    
+}
+loginForm button:visited{
+    
+}
+loginForm button:hover{
+    background-color: aqua;
+}
+loginForm button:active{
+    
+}
+#welcomeImage {
+    float:left;
+    width: 400px;
+    margin: 0px 0px 0px 20px;
+}
+#registrationForm{
+    padding: 50px 40px 0px 0px;
+    position: relative;
+    float: right;
+}
+#registrationForm input{
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 7px;
+}
+#registrationForm #name{
+    width: 110px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 0;
+}
+#registrationForm #surname{
+    width: 110px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 7px;
+   
+}
+#registrationForm select{
+    width: 275px;
+    height: 40px;
+    border-radius: 7px;
+}
+#registrationForm button{
+    margin-left: 290px;
+    margin-top: 5px;
+}
+
+#content{
+    position: relative;
+    overflow: hidden;
+    background-color: #27aae2;
+	width: 100%;
+}
+#JoinUsText{
+    position: relative;
+    left: 100px;
+    height: 50px;
+    width: 200px;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: #dbecff;
+    overflow: hidden;
+    clear: both;
+    border-top: 2px solid #cfe2f7;
+}
+#rightings{
+    height: 100%;
+	float:right;
+	width: 450px;
+}
+#rightings img{
+    height: 50px;
+	float: left;
+	padding: 10px;
+}
+#rightings h2{
+    text-align: center;
+	padding: 10px;
+}
